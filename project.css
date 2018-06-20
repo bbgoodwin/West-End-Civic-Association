@@ -1,0 +1,28 @@
+.images{
+  height: 600px;
+  width: 380px;
+}
+#school{
+  height: 300px;
+  width: 100%;
+}
+body{
+  background-image: url("http://images4.fanpop.com/image/photos/21800000/Town-hd-wallpaper-21805939-1920-1080.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Oswald', sans-serif;
+}
+h1{
+  font-size: 60px;
+  text-align: center;
+}
+h3{
+  font-size: 40px;
+  text-align: center;
+}
+p{
+  font-size: 20px;
+}
+.hometext{
+  font-size: 24px;
+}
