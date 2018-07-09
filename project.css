@@ -2,15 +2,33 @@
   height: 600px;
   width: 380px;
 }
-#school{
+.toppers{
   height: 300px;
   width: 100%;
 }
+.wrapper{
+  margin-left:auto;
+  margin-right:auto;
+  width:960px;
+}
+.carousel{
+  opacity: 100;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.jumbotron {
+   background: rgb(239, 241, 244); /* This is for ie8 and below */
+   background: rgba(239, 241, 244, 0.5);
+}
 body{
-  background-image: url("http://images4.fanpop.com/image/photos/21800000/Town-hd-wallpaper-21805939-1920-1080.jpg");
-  background-repeat: no-repeat;
+  background-image: url("background.jpg");
+  background-size: cover;
   background-attachment: fixed;
   font-family: 'Oswald', sans-serif;
+  font-size: 20px;
 }
 h1{
   font-size: 60px;
@@ -20,6 +38,7 @@ h3{
   font-size: 40px;
   text-align: center;
 }
+
 p{
   font-size: 20px;
 }
